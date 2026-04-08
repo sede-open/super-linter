@@ -11,7 +11,7 @@ FROM alpine/terragrunt:1.14.8 AS terragrunt
 FROM dotenvlinter/dotenv-linter:4.0.0 AS dotenv-linter
 FROM ghcr.io/terraform-linters/tflint:v0.61.0 AS tflint
 FROM alpine/helm:4.1.3 AS helm
-FROM golang:1.26.1-alpine AS golang
+FROM golang:1.26.2-alpine AS golang
 FROM golangci/golangci-lint:v2.11.4 AS golangci-lint
 FROM goreleaser/goreleaser:v2.15.2 AS goreleaser
 FROM hadolint/hadolint:v2.14.0-alpine AS dockerfile-lint
@@ -19,7 +19,7 @@ FROM registry.k8s.io/kustomize/kustomize:v5.8.1 AS kustomize
 FROM hashicorp/terraform:1.14.8 AS terraform
 FROM koalaman/shellcheck:v0.11.0 AS shellcheck
 FROM mstruebing/editorconfig-checker:v3.6.1 AS editorconfig-checker
-FROM mvdan/shfmt:v3.13.0 AS shfmt
+FROM mvdan/shfmt:v3.13.1 AS shfmt
 FROM rhysd/actionlint:1.7.12 AS actionlint
 FROM scalameta/scalafmt:v3.10.7 AS scalafmt
 FROM zricethezav/gitleaks:v8.30.1 AS gitleaks
