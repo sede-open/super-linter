@@ -21,11 +21,11 @@ FROM koalaman/shellcheck:v0.11.0 AS shellcheck
 FROM mstruebing/editorconfig-checker:v3.6.1 AS editorconfig-checker
 FROM mvdan/shfmt:v3.13.1 AS shfmt
 FROM rhysd/actionlint:1.7.12 AS actionlint
-FROM scalameta/scalafmt:v3.10.7 AS scalafmt
+FROM scalameta/scalafmt:v3.11.0 AS scalafmt
 FROM zricethezav/gitleaks:v8.30.1 AS gitleaks
 FROM yoheimuta/protolint:0.56.4 AS protolint
 FROM ghcr.io/clj-kondo/clj-kondo:2026.01.19-alpine AS clj-kondo
-FROM dart:3.11.2-sdk AS dart
+FROM dart:3.11.4-sdk AS dart
 FROM mcr.microsoft.com/dotnet/sdk:10.0.201-alpine3.23 AS dotnet-sdk
 FROM composer/composer:2.9.5 AS php-composer
 FROM ghcr.io/aquasecurity/trivy:0.69.3 AS trivy
