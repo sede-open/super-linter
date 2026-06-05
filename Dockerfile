@@ -29,7 +29,7 @@ FROM dart:3.12.1-sdk AS dart
 FROM mcr.microsoft.com/dotnet/sdk:10.0.300-alpine3.23 AS dotnet-sdk
 FROM composer/composer:2.10.1 AS php-composer
 FROM ghcr.io/aquasecurity/trivy:0.71.0 AS trivy
-FROM ghcr.io/yannh/kubeconform:v0.7.0 AS kubeconform
+FROM ghcr.io/yannh/kubeconform:v0.8.0 AS kubeconform
 
 FROM python:3.15.0b2-alpine3.23 AS python-base
 
