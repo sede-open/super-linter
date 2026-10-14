@@ -25,10 +25,10 @@ FROM scalameta/scalafmt:v3.11.5 AS scalafmt
 FROM zricethezav/gitleaks:v8.30.1 AS gitleaks
 FROM yoheimuta/protolint:0.58.0 AS protolint
 FROM ghcr.io/clj-kondo/clj-kondo:2026.08.04-alpine AS clj-kondo
-FROM dart:3.13.4-sdk AS dart
+FROM dart:3.13.5-sdk AS dart
 FROM mcr.microsoft.com/dotnet/sdk:10.0.401-alpine3.23 AS dotnet-sdk
 FROM composer/composer:2.10.3 AS php-composer
-FROM ghcr.io/aquasecurity/trivy:0.75.0 AS trivy
+FROM ghcr.io/aquasecurity/trivy:0.76.0 AS trivy
 FROM ghcr.io/yannh/kubeconform:v0.8.0 AS kubeconform
 
 FROM python:3.15.0rc3-alpine3.23 AS python-base
