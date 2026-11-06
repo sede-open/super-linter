@@ -1920,11 +1920,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f20ce6f3c82556cfcfc086b152445a12d1d64fff",
-                "reference": "f20ce6f3c82556cfcfc086b152445a12d1d64fff",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/645a1bd6bead15fc1b8474137467961d0fa30a79",
+                "reference": "645a1bd6bead15fc1b8474137467961d0fa30a79",
                 "shasum": ""
             },
             "require": {
@@ -1980,7 +1980,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-28T22:38:53+00:00"
+            "time": "2026-11-03T12:14:22+00:00"
         },
         {
             "name": "psalm/plugin-laravel",
@@ -2248,16 +2248,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v5.10.0",
+            "version": "v5.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "7e65cfa9737a4589387448d8bbab4b028601f7a2"
+                "reference": "a34c03aaeb148da0ce807187717392b6e9b08738"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/7e65cfa9737a4589387448d8bbab4b028601f7a2",
-                "reference": "7e65cfa9737a4589387448d8bbab4b028601f7a2",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/a34c03aaeb148da0ce807187717392b6e9b08738",
+                "reference": "a34c03aaeb148da0ce807187717392b6e9b08738",
                 "shasum": ""
             },
             "require": {
@@ -2315,9 +2315,9 @@
             "description": "Psalm Plugin for Symfony",
             "support": {
                 "issues": "https://github.com/psalm/psalm-plugin-symfony/issues",
-                "source": "https://github.com/psalm/psalm-plugin-symfony/tree/v5.10.0"
+                "source": "https://github.com/psalm/psalm-plugin-symfony/tree/v5.10.1"
             },
-            "time": "2026-11-03T23:52:18+00:00"
+            "time": "2026-11-06T09:33:33+00:00"
         },
         {
             "name": "psalm/psalm-plugin-api",
@@ -3693,16 +3693,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "7.0.0",
+            "version": "7.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "618ca49c75d3fd828e58ee76f166329bb56794e7"
+                "reference": "c3909231356b5fce30739ff0cf62bf50e6b5e7c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/618ca49c75d3fd828e58ee76f166329bb56794e7",
-                "reference": "618ca49c75d3fd828e58ee76f166329bb56794e7",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/c3909231356b5fce30739ff0cf62bf50e6b5e7c7",
+                "reference": "c3909231356b5fce30739ff0cf62bf50e6b5e7c7",
                 "shasum": ""
             },
             "require": {
@@ -3810,7 +3810,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2026-11-02T16:56:48+00:00"
+            "time": "2026-11-03T11:14:30+00:00"
         },
         {
             "name": "webmozart/assert",
