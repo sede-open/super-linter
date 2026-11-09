@@ -9,11 +9,11 @@
 #########################################
 FROM alpine/terragrunt:1.17.1 AS terragrunt
 FROM dotenvlinter/dotenv-linter:4.0.0 AS dotenv-linter
-FROM ghcr.io/terraform-linters/tflint:v0.65.0 AS tflint
+FROM ghcr.io/terraform-linters/tflint:v0.66.0 AS tflint
 FROM alpine/helm:4.3.1 AS helm
 FROM golang:1.27-alpine AS golang
 FROM golangci/golangci-lint:v2.15.0 AS golangci-lint
-FROM goreleaser/goreleaser:v2.19.0 AS goreleaser
+FROM goreleaser/goreleaser:v2.20.0 AS goreleaser
 FROM hadolint/hadolint:v2.15.1-alpine AS dockerfile-lint
 FROM registry.k8s.io/kustomize/kustomize:v5.8.3 AS kustomize
 FROM hashicorp/terraform:1.17.1 AS terraform
