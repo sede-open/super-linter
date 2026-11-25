@@ -24,7 +24,7 @@
     "eslint-plugin-vue": "^10.12.1",
     "htmlhint": "^1.9.2",
     "jscpd": "^5.4.3",
-    "markdownlint-cli": "^0.50.0",
+    "markdownlint-cli": "^0.50.1",
     "next": "^16.4.6",
     "npm-groovy-lint": "^19.0.1",
     "prettier": "^3.10.1",
