@@ -27,7 +27,7 @@ FROM yoheimuta/protolint:0.58.0 AS protolint
 FROM ghcr.io/clj-kondo/clj-kondo:2026.10.26-alpine AS clj-kondo
 FROM dart:3.14.1-sdk AS dart
 FROM mcr.microsoft.com/dotnet/sdk:10.0.401-alpine3.23 AS dotnet-sdk
-FROM composer/composer:2.11.2 AS php-composer
+FROM composer/composer:2.11.3 AS php-composer
 FROM ghcr.io/aquasecurity/trivy:0.76.2 AS trivy
 FROM ghcr.io/yannh/kubeconform:v0.8.0 AS kubeconform
 
